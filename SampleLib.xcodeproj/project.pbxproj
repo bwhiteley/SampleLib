@@ -10,6 +10,18 @@
 		CCEE03A5209BC5410000DDE3 /* SampleLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEE039B209BC5410000DDE3 /* SampleLib.framework */; };
 		CCEE03AA209BC5410000DDE3 /* SampleLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE03A9209BC5410000DDE3 /* SampleLibTests.swift */; };
 		CCEE03AC209BC5410000DDE3 /* SampleLib.h in Headers */ = {isa = PBXBuildFile; fileRef = CCEE039E209BC5410000DDE3 /* SampleLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCEE03C1209BC5D50000DDE3 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE03B5209BC5D40000DDE3 /* Optional.swift */; };
+		CCEE03C2209BC5D50000DDE3 /* AtomicProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE03B6209BC5D50000DDE3 /* AtomicProperty.swift */; };
+		CCEE03C3209BC5D50000DDE3 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE03B7209BC5D50000DDE3 /* UITableView.swift */; };
+		CCEE03C4209BC5D50000DDE3 /* UIView+embed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE03B8209BC5D50000DDE3 /* UIView+embed.swift */; };
+		CCEE03C5209BC5D50000DDE3 /* UIViewController+embed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE03B9209BC5D50000DDE3 /* UIViewController+embed.swift */; };
+		CCEE03C6209BC5D50000DDE3 /* FlexBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE03BA209BC5D50000DDE3 /* FlexBoxView.swift */; };
+		CCEE03C7209BC5D50000DDE3 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE03BB209BC5D50000DDE3 /* ItemsViewController.swift */; };
+		CCEE03C8209BC5D50000DDE3 /* ViewControllerBehaviors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE03BC209BC5D50000DDE3 /* ViewControllerBehaviors.swift */; };
+		CCEE03C9209BC5D50000DDE3 /* SafeSyncQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE03BD209BC5D50000DDE3 /* SafeSyncQueue.swift */; };
+		CCEE03CA209BC5D50000DDE3 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE03BE209BC5D50000DDE3 /* Storyboarded.swift */; };
+		CCEE03CB209BC5D50000DDE3 /* UIResponder+FirstResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE03BF209BC5D50000DDE3 /* UIResponder+FirstResponder.swift */; };
+		CCEE03CC209BC5D50000DDE3 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEE03C0209BC5D50000DDE3 /* NibView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +41,18 @@
 		CCEE03A4209BC5410000DDE3 /* SampleLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCEE03A9209BC5410000DDE3 /* SampleLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleLibTests.swift; sourceTree = "<group>"; };
 		CCEE03AB209BC5410000DDE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCEE03B5209BC5D40000DDE3 /* Optional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		CCEE03B6209BC5D50000DDE3 /* AtomicProperty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtomicProperty.swift; sourceTree = "<group>"; };
+		CCEE03B7209BC5D50000DDE3 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		CCEE03B8209BC5D50000DDE3 /* UIView+embed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+embed.swift"; sourceTree = "<group>"; };
+		CCEE03B9209BC5D50000DDE3 /* UIViewController+embed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+embed.swift"; sourceTree = "<group>"; };
+		CCEE03BA209BC5D50000DDE3 /* FlexBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexBoxView.swift; sourceTree = "<group>"; };
+		CCEE03BB209BC5D50000DDE3 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		CCEE03BC209BC5D50000DDE3 /* ViewControllerBehaviors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerBehaviors.swift; sourceTree = "<group>"; };
+		CCEE03BD209BC5D50000DDE3 /* SafeSyncQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeSyncQueue.swift; sourceTree = "<group>"; };
+		CCEE03BE209BC5D50000DDE3 /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		CCEE03BF209BC5D50000DDE3 /* UIResponder+FirstResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder+FirstResponder.swift"; sourceTree = "<group>"; };
+		CCEE03C0209BC5D50000DDE3 /* NibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +95,18 @@
 		CCEE039D209BC5410000DDE3 /* SampleLib */ = {
 			isa = PBXGroup;
 			children = (
+				CCEE03B6209BC5D50000DDE3 /* AtomicProperty.swift */,
+				CCEE03BA209BC5D50000DDE3 /* FlexBoxView.swift */,
+				CCEE03BB209BC5D50000DDE3 /* ItemsViewController.swift */,
+				CCEE03C0209BC5D50000DDE3 /* NibView.swift */,
+				CCEE03B5209BC5D40000DDE3 /* Optional.swift */,
+				CCEE03BD209BC5D50000DDE3 /* SafeSyncQueue.swift */,
+				CCEE03BE209BC5D50000DDE3 /* Storyboarded.swift */,
+				CCEE03BF209BC5D50000DDE3 /* UIResponder+FirstResponder.swift */,
+				CCEE03B7209BC5D50000DDE3 /* UITableView.swift */,
+				CCEE03B8209BC5D50000DDE3 /* UIView+embed.swift */,
+				CCEE03B9209BC5D50000DDE3 /* UIViewController+embed.swift */,
+				CCEE03BC209BC5D50000DDE3 /* ViewControllerBehaviors.swift */,
 				CCEE039E209BC5410000DDE3 /* SampleLib.h */,
 				CCEE039F209BC5410000DDE3 /* Info.plist */,
 			);
@@ -148,6 +184,7 @@
 				TargetAttributes = {
 					CCEE039A209BC5410000DDE3 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					CCEE03A3209BC5410000DDE3 = {
 						CreatedOnToolsVersion = 9.3;
@@ -194,6 +231,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCEE03C1209BC5D50000DDE3 /* Optional.swift in Sources */,
+				CCEE03C9209BC5D50000DDE3 /* SafeSyncQueue.swift in Sources */,
+				CCEE03C6209BC5D50000DDE3 /* FlexBoxView.swift in Sources */,
+				CCEE03C8209BC5D50000DDE3 /* ViewControllerBehaviors.swift in Sources */,
+				CCEE03C5209BC5D50000DDE3 /* UIViewController+embed.swift in Sources */,
+				CCEE03C2209BC5D50000DDE3 /* AtomicProperty.swift in Sources */,
+				CCEE03C7209BC5D50000DDE3 /* ItemsViewController.swift in Sources */,
+				CCEE03CB209BC5D50000DDE3 /* UIResponder+FirstResponder.swift in Sources */,
+				CCEE03CC209BC5D50000DDE3 /* NibView.swift in Sources */,
+				CCEE03CA209BC5D50000DDE3 /* Storyboarded.swift in Sources */,
+				CCEE03C4209BC5D50000DDE3 /* UIView+embed.swift in Sources */,
+				CCEE03C3209BC5D50000DDE3 /* UITableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +388,7 @@
 		CCEE03B0209BC5410000DDE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -355,6 +405,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.SampleLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +414,7 @@
 		CCEE03B1209BC5410000DDE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -387,6 +439,7 @@
 		CCEE03B3209BC5410000DDE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SampleLibTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,6 +457,7 @@
 		CCEE03B4209BC5410000DDE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SampleLibTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
