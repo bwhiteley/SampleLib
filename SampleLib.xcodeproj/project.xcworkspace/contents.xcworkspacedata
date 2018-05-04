@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SampleLib.xcodeproj">
+      location = "self:/Users/bart/code/SampleLib/SampleLib.xcodeproj">
    </FileRef>
 </Workspace>
